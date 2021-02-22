@@ -1,0 +1,1 @@
+/Users/shutoto25/AndroidStudioProjects/RefrigeManager
