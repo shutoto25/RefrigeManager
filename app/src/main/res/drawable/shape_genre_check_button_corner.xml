@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 活性状態 -->
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomLeftRadius="15dp"
+                android:bottomRightRadius="15dp"
+                android:topLeftRadius="15dp"
+                android:topRightRadius="15dp" />
+            <solid android:color="@color/colorAccent" />
+        </shape>
+    </item>
+    
+    <!-- 非活性状態 -->
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomLeftRadius="15dp"
+                android:bottomRightRadius="15dp"
+                android:topLeftRadius="15dp"
+                android:topRightRadius="15dp" />
+            <solid android:color="@color/colorAccent" />
+        </shape>
+    </item>
+</selector>
